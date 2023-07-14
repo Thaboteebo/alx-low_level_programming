@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
+ * main - A program that print a line using the printf function
  * Return: always 0 (Success)
  */
+
 int main(void)
 {
 	printf("with prpoer grammar, but the outcome is a piece of art,\n);
