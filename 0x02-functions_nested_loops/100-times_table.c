@@ -3,16 +3,24 @@
 /**
  *print_times_table - Print times table of the input,
  *
- * @n: The value of the times table to be printed
+ * @n: The value of the times table to be printed.
  */
 
 void print_times_table(int n)
-
 {
+	return (0);
+}
 
+/**
+ * main - Entry point of the program
+ * Return: Always 0.
+ */
+
+int main(void)
+{
 	int i, j, product;
 
-	if (n >= 0 && n <= 15)
+	if (n <= 0 && n <= 15)
 	{
 		for (i = 0; i <= n; i++)
 		{
@@ -23,7 +31,7 @@ void print_times_table(int n)
 					_putchar(' ');
 
 					product = i * j;
-					if (product == 99)
+					if (product  == 99)
 					{
 						_putchar(' ');
 					}
@@ -40,7 +48,7 @@ void print_times_table(int n)
 					{
 						_putchar((product / 10) + '0')
 					}
-					_putchar((product % 10) + '0');
+					_putchar((product / 10) + '0')
 				}
 			_putchar('\n');
 		}
