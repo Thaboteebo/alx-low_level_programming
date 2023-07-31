@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * print_chessboard - Prints the chessboard
@@ -7,7 +8,7 @@
  * Return: void
  */
 
-void print_chessboard(char (*a)[8])
+int _putchar(char c); void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
