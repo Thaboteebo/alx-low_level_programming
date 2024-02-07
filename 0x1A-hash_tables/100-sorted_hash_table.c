@@ -110,7 +110,7 @@ void add_to_sorted_list(shash_table_t *table, shash_node_t *node)
  * Return: 1 on success, 0 otherwise
  */
 
-int shash_table_set(shash_table_set *ht, const char *key, const char *value)
+int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long int index;
 	char *new_value;
