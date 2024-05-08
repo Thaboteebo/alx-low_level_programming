@@ -19,7 +19,7 @@ int _binary_search(int *array, size_t left, size_t right, int value)
 	size_t i;
 
 	if (array == NULL)
-		retrun (-1);
+		return (-1);
 
 	while (right >= left)
 	{
